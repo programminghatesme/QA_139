@@ -1,0 +1,94 @@
+:root{
+  --bg: #5bb08d;
+  --card: #ffffff;
+  --text: #000;
+  --accent: #1e40af;
+  --muted: #555;
+  --radius: 10px;
+  --spacing: 10px;
+  --shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  padding: 20px;
+}
+
+body {
+ font-family: "Times New Roman", serif;
+ background-color: rgb(91, 176, 141);
+ margin: 0;
+ padding: 20px;
+}
+
+header {
+  font-size: 24px;
+  text-align: center;
+  padding: var(--spacing);
+  margin-bottom: 15px;
+}
+
+nav {
+  margin-bottom: 15px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+}
+
+section {
+  background: var(--card);
+  padding: var(--spacing);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  background: var(--accent);
+  border: none;
+  border-radius: var(--radius);
+  color: white;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+button:hover {
+  background: #233b8a;
+}
+
+.block {
+  padding: var(--spacing);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  box-shadow: var(--shadow);
+}
+
+.blue {
+  background: blue;
+  color: white;
+}
+
+.yellow {
+  background: yellow;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: var(--muted);
+}
