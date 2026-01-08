@@ -1,0 +1,1 @@
+All tests have been executed successfully (100 users in 10 seconds for 3 iterations) passing all the given assertions (correct response code, duration time <=1000 ms, output size <=3000 bytes, correct HTML format) resulting in 0% of errors.
